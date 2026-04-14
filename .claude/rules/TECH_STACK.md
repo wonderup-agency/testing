@@ -42,8 +42,12 @@
 
 - **Cloudflare Tunnel** (`cloudflared`) — exposes local server for testing on real devices/Webflow preview
 
+## Animation
+
+- **GSAP** (`gsap`) — animation library used for component and page-level animations; imported directly in browser code and bundled by Rollup
+
 ## Dependencies
 
-- **Runtime**: `picocolors` (used by scripts only, not bundled to browser)
+- **Runtime**: `picocolors` (used by scripts only, not bundled to browser), `gsap` (bundled to browser via Rollup)
 - **Dev**: All other deps are devDependencies (Rollup, ESLint, Prettier, etc.)
 - No frontend framework — vanilla JavaScript only

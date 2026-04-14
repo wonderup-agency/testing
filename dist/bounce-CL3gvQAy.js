@@ -1,0 +1,1 @@
+import{g as e}from"./index-BueVI4Q3.js";function o(o){o.forEach(o=>{o.addEventListener("click",()=>{e.to(o,{y:-30,duration:.3,ease:"power2.out",yoyo:!0,repeat:1,onComplete:()=>e.set(o,{y:0})})})})}export{o as default};

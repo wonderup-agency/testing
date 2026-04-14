@@ -12,4 +12,13 @@
 // Both scaffold the file and add an entry here automatically.
 // --------------------------------------------------
 
-export default []
+export default [
+  {
+    selector: "[data-component='bounce']",
+    importFn: () => import('./components/bounce.js'),
+  },
+  {
+    selector: "[data-component='spin']",
+    importFn: () => import('./components/spin.js'),
+  },
+]

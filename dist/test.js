@@ -1,0 +1,1 @@
+import{g as o}from"./index-BueVI4Q3.js";setInterval(()=>{o.to(document.body,{backgroundColor:`hsl(${Math.floor(360*Math.random())}, ${60+Math.floor(20*Math.random())}%, ${45+Math.floor(20*Math.random())}%)`,duration:.5,ease:"none"})},1e3);
